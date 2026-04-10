@@ -5,7 +5,7 @@
 # 2. No modifiques las condiciones del menú (if/elif).
 # 3. Usa solo una función print() por ejercicio.
 
-problema = int(input())
+problema = int(input("Número del problema (1-4): "))
 
 if problema == 1:
     # Problema 1 (Día 5 - Listas): 
@@ -29,7 +29,10 @@ elif problema == 3:
     # Del ejercicio de bucles: Usa un ciclo 'for' para iterar de 0 a 100 
     # y suma solo los números impares. Imprime solo el resultado final.
     suma_impares = 0
-    print(suma_impares)
+    for numero in range(0, 101):
+        if numero % 2 != 0:
+            suma_impares += numero
+    print(suma_impares) 
 
 elif problema == 4:
     # Problema 4 (Día 11 - Funciones):
