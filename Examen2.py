@@ -5,7 +5,7 @@
 # 2. No modifiques las condiciones del menú (if/elif).
 # 3. Usa solo una función print() por ejercicio.
 
-problema = int(input("Número del problema (1-4): "))
+problema = int(input())
 
 if problema == 1:
     # Problema 1 (Día 5 - Listas): 
